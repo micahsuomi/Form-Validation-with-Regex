@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>30 Days of JavaScript Day 30: Validating Web Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="container">
+            <h3 class="title">Validating Web Forms</h3>
+            <form class="form">
+                <div class="input-wrapper">
+                <label for="firstName">First Name</label>
+                <input type="text" class="first-name__input" placeholder="First Name" name ="firstname" required>
+                <p class="warning-first-name"></p>
+            </div>
+                <br>
+
+                <div class="input-wrapper">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="last-name__input" placeholder="Last Name" name ="lastname" required>
+                <p class="warning-last-name"></p>
+                </div>
+
+                <br>
+                <div class="input-wrapper">
+                <label for="email">Email</label>
+                <input type="text" class="email-input" placeholder="Email" name ="email" required>
+                <p class="warning-email"></p>
+                </div>
+                <br>
+
+                <div class="input-wrapper">
+                <label for="password">Password</label>
+                <input type="text" class="password-input" placeholder="Password" name ="password" required>
+                <p class="warning-password"></p>
+                </div>
+                <br>
+
+                <div class="input-wrapper">
+                <label for="phone">Phone</label>
+                <input type="text" class="phone-input" placeholder="Phone" name ="phone" required>
+                <p class="warning-phone"></p>
+                </div>
+                <br>
+
+                <div class="input-wrapper">
+                <label for="bio">Your Bio</label>
+                <input type="text" class="bio-input" placeholder="Your Bio" name ="bio" required>
+                <p class="warning-bio"></p>
+                <p class="warning-bio2"></p>
+                </div>
+                <br>
+
+                <div class="button-wrapper">
+                <button class="submit-btn">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <!-- <script src="main.js"></script> -->
+    <script src="main2.js"></script>
+
+</body>
+</html>
