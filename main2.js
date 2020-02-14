@@ -33,7 +33,7 @@ inputs.forEach((input) => {
         if (target === 'firstname') {
             let regex = /^[A-Za-z0-9]{3,16}$/g
             if (!regex.test(value)) {
-                warningFirstName.textContent = 'First name must be alphanumeric and include 3 - 16 letters';
+                warningFirstName.textContent = 'First name must be include 3 - 16 letters';
                 input.classList.add('warning-outline');
                 input.classList.remove('thicked');
                 firstNameValidated = false;
@@ -51,7 +51,7 @@ inputs.forEach((input) => {
 
             let regex = /^[A-Za-z0-9]{3,16}$/ig
             if (!regex.test(value)) {
-                warningLastName.textContent = 'Last name must be alphanumeric and include 3 - 16 letters';
+                warningLastName.textContent = 'Last name must include 3 - 16 letters';
                 input.classList.add('warning-outline');
                 input.classList.remove('thicked');
                 lastNameValidated = false;
