@@ -125,8 +125,11 @@ input:focus {
         padding: 0;
     }
 
+    .form {
+        padding: 3rem 2rem;
+    }
     input {
-        width: 20rem;
+        width: 18rem;
     }
 }
 
@@ -143,8 +146,15 @@ input:focus {
 @media screen and (max-width: 320px) {
    
 
+    .title {
+        margin-top: 1rem;
+    }
+
+    .form {
+        padding: 2rem 1rem;
+    }
    
     input {
-        width: 15rem;
+        width: 16rem;
     }
 }

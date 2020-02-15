@@ -100,7 +100,7 @@ inputs.forEach((input) => {
             }
 
         } else if (target === 'phone') {
-            let regex = /[0-9]{3}[-]{1}[0-9]{3}[-]{1}[0-9]{3}[-]{1}[0-9]{4}$/ig
+            let regex = /[0-9]{3}[-]{1}[0-9]{3}[-]{1}[0-9]{4}$/ig
             if (!regex.test(value)) {
                 warningPhone.textContent = 'A valid Telephone number(11 digits and 333-333-3334)';
                 input.classList.add('warning-outline');
